@@ -54,7 +54,7 @@ public class GestionMaterielServiceImpl implements GestionMaterielService {
     @Override
     public void rechercherMateriel(String materiel){
         List<Materiel> l1 = materielDAO.getListe();
-        boolean imane = false;
+        boolean b1 = false;
 
         for (int i = 0; i < l1.size(); i++) {
             if(l1.get(i).getName().equals(materiel)){
@@ -62,7 +62,7 @@ public class GestionMaterielServiceImpl implements GestionMaterielService {
             }
 
         }
-        if(imane){
+        if(b1){
             System.out.println(materiel+" existe");
         }
         else{
