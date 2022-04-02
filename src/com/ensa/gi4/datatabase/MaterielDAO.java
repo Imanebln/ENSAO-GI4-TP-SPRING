@@ -15,8 +15,8 @@ public class MaterielDAO {
         Chaise chaise= new Chaise();
         Livre livre = new Livre();
 
-        chaise.setName("Benziza");
-        livre.setName("Wijdane");
+        chaise.setName("Chair");
+        livre.setName("Book");
 
         liste.add(chaise);
         liste.add(livre);
